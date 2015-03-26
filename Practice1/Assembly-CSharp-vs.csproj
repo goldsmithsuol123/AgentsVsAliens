@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E6F3BCDA-3F63-89C3-8B17-47D431E266B0}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\GameOver\applyDeath.cs" />
+     <Compile Include="Assets\GameScreen\ChangeScene.cs" />
+     <Compile Include="Assets\GameScreen\ControlSound.cs" />
+     <Compile Include="Assets\GameScreen\GUIAspectRatioScale.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\ArmRotation.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\Collision.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\EnemyAiScript.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\EquipWeapon.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\ExpGUI.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\ExpGameScreen.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\HPText.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\HeadRotation.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\HpBarScript.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\LevelGUI.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\MobSpawner.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\MoveTrail.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\PlayerStats.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\Weapon.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\characterPostion.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\displaystats.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\pauseControls.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\quitGame.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\showQuitPanel.cs" />
+     <Compile Include="Assets\GameScreen\Scripts\swapWeapons.cs" />
+     <Compile Include="Assets\GameScreen\changeSoundIcon.cs" />
+     <Compile Include="Assets\PlayerPrefsFirstTime.cs" />
+     <Compile Include="Assets\Upgrade Screen\StatsPage\StatsText.cs" />
+     <Compile Include="Assets\Upgrade Screen\ToWeaponsPage.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\ChangeColortxt.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\Pistol\DamageText.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\Pistol\FireRateText.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\Pistol\buyFirerate.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\Pistol\damagestats.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\Pistol\displayPistol.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\Pistol\getPistolDmgPrice.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\Pistol\getPistolFireRatePrice.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\UnlockWeapon.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\WPequip.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\moneyGUI.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\purchaseDone.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\requiredLvlTxt.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\viewCash.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\viewLevel.cs" />
+     <Compile Include="Assets\Upgrade Screen\WeaponPage\weaponCost.cs" />
+     <Compile Include="Assets\Upgrade Screen\displayWeaponPage.cs" />
+     <Compile Include="Assets\giveMoney.cs" />
+     <Compile Include="Assets\reset.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\reset.cs">
+    <Files>
+      <File FileName="Assets\Upgrade Screen\WeaponPage\Pistol\buyFirerate.cs" Line="34" Column="40" />
+      <File FileName="Assets\GameScreen\Scripts\Weapon.cs" Line="27" Column="67" />
+      <File FileName="Assets\Upgrade Screen\StatsPage\StatsText.cs" Line="15" Column="17" />
+      <File FileName="Assets\Upgrade Screen\WeaponPage\requiredLvlTxt.cs" Line="7" Column="11" />
+      <File FileName="Assets\reset.cs" Line="10" Column="2" />
+      <File FileName="Assets\PlayerPrefsFirstTime.cs" Line="5" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
